@@ -11,6 +11,9 @@
 
 function introduce(name, age) {
   // TODO
+  let data;
+  data = (age === '') ? "비공개" : age;
+  return `안녕하세요! 저는 ${name}, 나이는 ${data}입니다.`
 }
 
 // export 를 수정하지 마세요.
