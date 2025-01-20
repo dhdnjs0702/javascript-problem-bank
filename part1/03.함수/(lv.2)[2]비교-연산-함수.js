@@ -15,4 +15,18 @@
 // TODO: strictCompare 함수를 작성하세요.
 
 // export 를 수정하지 마세요.
+
+function looseCompare(a,b){
+    if(a == b){
+        return true;
+    }else
+       return false;
+}
+
+function strictCompare(a, b){
+    if(a === b)
+        return true;
+    else
+       return false;
+}
 export { looseCompare, strictCompare };

@@ -18,5 +18,21 @@
 
 // TODO: 함수 이름이 divide 인 함수를 작성하세요.
 
+function add(x, y){
+    return x + y;
+}
+
+function subtract(x, y){
+    return x - y;
+}
+
+function multiply(x, y){
+    return x * y;
+}
+
+function divide(x, y){
+    return x / y;
+}
+
 // export 를 수정하지 마세요.
 export { add, subtract, multiply, divide };
