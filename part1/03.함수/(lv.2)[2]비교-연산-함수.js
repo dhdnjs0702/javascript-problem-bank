@@ -16,17 +16,17 @@
 
 // export 를 수정하지 마세요.
 
-function looseCompare(a,b){
-    if(a == b){
+function looseCompare(a, b) {
+    if (a == b) {
         return true;
-    }else
-       return false;
+    } else
+        return false;
 }
 
-function strictCompare(a, b){
-    if(a === b)
+function strictCompare(a, b) {
+    if (a === b)
         return true;
     else
-       return false;
+        return false;
 }
 export { looseCompare, strictCompare };
